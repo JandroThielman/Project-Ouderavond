@@ -59,7 +59,7 @@ li a:hover{
   background-color: #f9f9f9;
   text-align: center;
   width: 21.8vw;
-  height: 17.8vh;
+  height: 26.3vh;
   z-index: 1;
   position: absolute;
 }
@@ -72,7 +72,7 @@ li a:hover{
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #c6c6c6;
 }
 
 .dropdown:hover .dropdown-content {
@@ -313,4 +313,31 @@ h1{
 
 .l1{
   font-size: 1.9rem;
+}
+
+.formulierdiv{
+  background-color: chartreuse;
+  width: 30vw;
+  height: 55vh;
+  text-align: center;
+  margin-top: 5vh;
+  margin-left: 35vw;
+  border: 5px green solid;
+}
+
+.titelformulier{
+  color: white;
+}
+
+table, tr, th, td{
+  width: 75vw;
+  height: 5vh;
+  border: 5px solid chartreuse;
+}
+
+table{
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  margin-left: 12vw;
+  text-align: center;
 }
