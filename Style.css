@@ -340,6 +340,11 @@ table{
   text-align: center;
 }
 
+.menu{
+  visibility: hidden;
+  padding-left: 14vw;
+}
+
 
 
 
@@ -687,7 +692,13 @@ table{
     margin-left: 2.5vw;
     text-align: center;
   }
+
+  .menu{
+    visibility: hidden;
+    padding-left: 14vw;
+  }  
 }
+
 
 
 
@@ -722,6 +733,10 @@ table{
     padding-left: 0;
   }
   
+  ul{
+    visibility: hidden;
+  }
+
   nav li {
     font-size: 1.8rem;
     display: flex;
@@ -1037,4 +1052,9 @@ table{
     margin-left: 2.5vw;
     text-align: center;
   }
+
+  .menu{
+    visibility: visible;
+    padding-left: 14vw;
+  }  
 }
