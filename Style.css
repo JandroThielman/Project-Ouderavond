@@ -32,7 +32,7 @@ nav img {
 }
 
 li a{
-  padding: 1.07rem;
+  padding: 0.90rem;
   display: flex;
 
 }
@@ -48,7 +48,7 @@ li a:hover{
 }
 
 .linkbtn{
-  padding: 1.07rem;
+  padding: 0.90rem;
   display: flex;
   color: white;
 }
@@ -713,39 +713,33 @@ table{
   body{
     margin: 0;
     background-color: gray;
-    display: flex;
-    flex-direction: column;
   }
   
   nav {
-    width: 100%;
-    height: 11.6vh;
-    background: green;
+    width: 105.1vw;
+    height: 12vh;
+    background-color: green;
     margin: 0;
-    display: flex;
-    flex-direction: column;
   }
-  
+
   nav ul {
-    display: flex;
     list-style-type: none;
     margin: 0;
     padding-left: 0;
   }
-  
-  ul{
-    visibility: hidden;
-  }
 
   nav li {
     font-size: 1.8rem;
-    display: flex;
-    align-items: stretch;
   }
 
   nav a {
     color: white;
     text-decoration: none;
+  }
+
+  .bt1{
+  display: flex;
+  flex-direction: row;
   }
   
   li a{
@@ -766,9 +760,7 @@ table{
   
   .linkbtn{
     padding: .75rem;
-    display: flex;
     color: white;
-    align-items: center;
     height: 48.850px;
   }
   
@@ -777,7 +769,7 @@ table{
     background-color: #f9f9f9;
     margin-left: -14.8vw;
     text-align: center;
-    width: 25.8vw;
+    width: 50vw;
     height: 35vh;
     z-index: 1;
     position: absolute;
@@ -798,19 +790,15 @@ table{
     visibility: visible;
   }
   
-  .m1{
-    display: flex;
-  }
-  
   .logo{
-    width: 8vw;
+    width: 15vw;
     height: 10vh;
     margin-top: 1vh;
     margin-left: 1vw;
   }
   
   .underline{
-    width: 100vw;
+    width: 105.1vw;
     height: .7vh;
     background-color: greenyellow;
     box-shadow: 0 0 0.438rem 0.125rem greenyellow;
@@ -825,8 +813,8 @@ table{
   
   h1{
     font-family: Goldman;
-    font-size: 4.375rem;
-    letter-spacing: 1.563rem;
+    font-size: 2.5rem;
+    letter-spacing: .563rem;
     text-align: center;
     color: rgb(255, 255, 255);
     margin: 0;
@@ -835,8 +823,8 @@ table{
   
   .h1n{
     font-family: Goldman;
-    font-size: 2rem;
-    letter-spacing: 0.538rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.200rem;
     text-align: center;
     color: rgb(255, 255, 255);
     margin: 0;
@@ -852,8 +840,9 @@ table{
   .q2{
     color: white;
     width: 98vw;
-    height: 55vh;
-    font-size: 1.1rem;
+    height: 65vh;
+    text-align: center;
+    font-size: .9rem;
     margin-left: 0;
   }
   
@@ -865,23 +854,19 @@ table{
   
   .w1{
     width: 30vw;
-    transform: rotate(90deg);
     margin-top: 25vh;
   }
   
   .w2{
     color: white;
     width: 90vw;
-    font-size: 1.5rem;
+    font-size: .7rem;
+    text-align: center;
   }
   
   .w3{
     display: flex;
     flex-direction: row;
-  }
-  
-  .w4{
-    width: 22vw
   }
   
   .w5{
@@ -901,7 +886,7 @@ table{
   
   .e2{
     color: white;
-    font-size: 1.2rem;
+    font-size: .5rem;
     text-align: center;
   }
   
@@ -927,12 +912,14 @@ table{
   
   .r1{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
   }
   
   .r2{
     height: 60vh;
-    margin-right: .5vw;
+    display: flex;
+    width: 70vw;
+    margin-left: 15vw;
     border: 0.3em green solid;
     border-radius: 5rem;
   }
@@ -951,8 +938,8 @@ table{
   }
   
   .t2{
-    height: 40vh;
-    width: 22vw;
+    height: 50vh;
+    width: 52vw;
     margin-right: .5vw;
     border: 0.3em green solid;
     border-radius: 100rem;
@@ -968,20 +955,18 @@ table{
   
   .t4{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
   }
   
   .t5{
-    height: 40vh;
-    width: 34.7vw;
+    width: 90vw;
     margin-right: .5vw;
   }
   
   .t6{
-    height: 70vh;
-    width: 19.2vw;
+    width: 50vw;
     margin-right: .5vw;
   }
   
@@ -993,20 +978,21 @@ table{
   
   .y2{
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
   }
   
   .y3{
     border: 0.3em green solid;
     border-radius: 5rem 0 5rem 0;
+    width: 90vw;
   }
   
   .u1{
     display: flex;
     align-items: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
   }
   
@@ -1019,7 +1005,7 @@ table{
   .u3{
     border: 0.3em green solid;
     border-radius: 5rem 0 5rem 0;
-    height: 45vh;
+    height: 25vh;
   }
   
   .l1{
@@ -1028,16 +1014,17 @@ table{
   
   .formulierdiv{
     background-color: chartreuse;
-    width: 50vw;
+    width: 80vw;
     height: 65vh;
     text-align: center;
     margin-top: 5vh;
-    margin-left: 25vw;
+    margin-left: 10vw;
     border: 5px green solid;
   }
   
   .titelformulier{
     color: white;
+
   }
   
   table, tr, th, td{
@@ -1049,8 +1036,10 @@ table{
   table{
     margin-top: 3vh;
     margin-bottom: 2vh;
-    margin-left: 2.5vw;
+    margin-left: 2vw;
     text-align: center;
+    width: 10px;
+    font-size: .6em;
   }
 
   .menu{
